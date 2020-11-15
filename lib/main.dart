@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
                 backgroundColor: Colors.red,
                 backgroundImage: AssetImage('images/heitor.jpeg'),
               ),
-              Text(
+              SelectableText(
                 'Heitor Amaral',
                 style: TextStyle(
                   fontFamily: 'Pacifico',
@@ -53,7 +53,7 @@ class MyApp extends StatelessWidget {
                     Icons.phone,
                     color: Colors.teal,
                   ),
-                  title: Text(
+                  title: SelectableText(
                     '+55 19 99295-1293',
                     style: TextStyle(
                         color: Colors.teal.shade900,
@@ -69,7 +69,7 @@ class MyApp extends StatelessWidget {
                     Icons.email,
                     color: Colors.teal,
                   ),
-                  title: Text(
+                  title: SelectableText(
                     'heitor.amaral90@outlook.com',
                     style: TextStyle(
                         color: Colors.teal.shade900,
